@@ -1,0 +1,8 @@
+<div style="display: flex; flex-direction: column; flex-wrap: nowrap;">
+        {{#each model as |item| }}
+        <div style="display: block;">
+            <span>{{item.ID}} — {{item.Name}} — {{item.Author}} — {{item.Pages}} страниц</span>
+        </div>
+        {{/each}}
+    {{!-- <div>{{model}}</div> --}}
+</div>
